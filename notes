@@ -1,0 +1,11 @@
+Features:
+Function to convert from a IFSIMG object to a QPixmap (completed)
+Add ability to load an IFS image and have it displayed on the left side with proper scaling (completed)
+Add ability to call an IFS function (just one to start) and have the result placed in the left hand side (completed)
+Add ability to save the IFS image put on the left hand side (completed)
+Add ability to swap the right image into the left buffer (completed)
+Add optional display and navigation function for 3D images (completed)
+Populate list of IFS functions
+Make the associated parameter widgets appear for each function
+Implement running of IFS functions
+Add the position/value function by creating a function that converts from QLabel coordinates to the coordinates of the IFS Image, allowing the update of the position and values (requires reimplementation with subclassed QLabels so that the local mouse moved events can be received).
